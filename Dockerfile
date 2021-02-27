@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-LABEL key="Debdut Goswami - debdutgoswami@gmail.com"
+LABEL maintainer="Debdut Goswami - debdutgoswami@gmail.com"
 
 RUN apt-get update \
     && apt-get install -y python3-pip python3-dev libmysqlclient-dev netcat
